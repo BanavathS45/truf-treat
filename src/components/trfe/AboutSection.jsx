@@ -5,7 +5,7 @@ import { Trophy, Users, Clock, Shield } from 'lucide-react';
 const features = [
   { icon: Trophy, title: 'Professional Grade', desc: 'FIFA quality synthetic turf' },
   { icon: Users, title: 'All Skill Levels', desc: 'From beginners to pros' },
-  { icon: Clock, title: '18+ Hours Daily', desc: 'Open 5 AM to 11:30 PM' },
+  { icon: Clock, title: '20+ Hours Daily', desc: 'Open 5 AM to 11:30 PM' },
   { icon: Shield, title: 'Safe & Secure', desc: 'Well-lit & monitored' },
 ];
 
@@ -57,7 +57,51 @@ export default function AboutSection() {
             </motion.div>
           ))}
         </div>
+        <div className="mt-20">
+  <h3 className="text-2xl md:text-3xl font-bold text-white text-center mb-10">
+    About Venue Rules
+  </h3>
+
+  <div className="grid md:grid-cols-3 gap-6">
+
+    {/* Pickleball */}
+    <div className="p-6 rounded-2xl bg-[#111] border border-white/5">
+      <h4 className="text-[#00ff88] font-bold text-xl mb-4">Pickleball</h4>
+      <ul className="text-gray-400 space-y-2 text-sm list-disc pl-5">
+        <li>Non-marking shoes compulsory</li>
+        <li>Shoes must be worn inside facility</li>
+        <li>Paddles & balls available for rent</li>
+        <li>Socks compulsory for rented shoes</li>
+        <li>Barefoot play prohibited</li>
+        <li>Max 4 players per court booking</li>
+      </ul>
+    </div>
+
+    {/* Box Cricket */}
+    <div className="p-6 rounded-2xl bg-[#111] border border-white/5">
+      <h4 className="text-[#00d4ff] font-bold text-xl mb-4">Box Cricket</h4>
+      <ul className="text-gray-400 space-y-2 text-sm list-disc pl-5">
+        <li>Sports shoes recommended</li>
+        <li>Bat, ball & wickets available</li>
+        <li>Barefoot play prohibited</li>
+      </ul>
+    </div>
+
+    {/* Football */}
+    <div className="p-6 rounded-2xl bg-[#111] border border-white/5">
+      <h4 className="text-[#ff6b00] font-bold text-xl mb-4">Football</h4>
+      <ul className="text-gray-400 space-y-2 text-sm list-disc pl-5">
+        <li>Football cleats recommended</li>
+        <li>Metal cleats not allowed</li>
+      </ul>
+    </div>
+
+  </div>
+</div>
       </div>
+      {/* Venue Rules */}
+
+
     </section>
   );
 }

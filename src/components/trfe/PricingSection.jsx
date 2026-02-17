@@ -8,7 +8,7 @@ const timeSlots = [
   { period: 'Morning', time: '5:00 AM - 10:00 AM', icon: Sunrise, price: '₹800/hr', popular: false },
   { period: 'Afternoon', time: '10:00 AM - 5:00 PM', icon: Sun, price: '₹1000/hr', popular: false },
   { period: 'Evening', time: '5:00 PM - 9:00 PM', icon: Clock, price: '₹1500/hr', popular: true },
-  { period: 'Night', time: '9:00 PM - 11:30 PM', icon: Moon, price: '₹1200/hr', popular: false },
+  { period: 'Night', time: '9:00 PM - 01:00 AM', icon: Moon, price: '₹1200/hr', popular: false },
 ];
 
 const packages = [

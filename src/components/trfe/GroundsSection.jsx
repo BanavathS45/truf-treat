@@ -5,30 +5,30 @@ import { mobilenumber } from '@/constant';
 
 const grounds = [
   {
-    title: 'Football Turf',
+    title: 'Football',
     description: 'Premium synthetic grass, professional goal posts, floodlights for night games',
     image: 'https://images.unsplash.com/photo-1551958219-acbc608c6377?w=800',
     features: ['5-a-side & 7-a-side', 'LED Floodlights', 'Premium Turf'],
     accent: '#00ff88',
   },
   {
-    title: 'Pickball Court',
+    title: 'Pickball',
     description: 'Regulation-size court with proper markings and quality surface',
-    image: 'https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?w=800',
+    image: 'https://t4.ftcdn.net/jpg/06/21/79/97/360_F_621799718_BjlRtbR7H7B09mT9CJS1B4pfHBfbeg4q.jpg',
     features: ['Full-size Court', 'Pro Markings', 'Night Lighting'],
     accent: '#00d4ff',
   },
   {
-    title: 'Cricket Net Practice',
+    title: 'Box Cricket',
     description: 'Multiple practice nets with bowling machines and coaching available',
-    image: 'https://images.unsplash.com/photo-1531415074968-036ba1b575da?w=800',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYPFRWSEgxnxEt7uMdumWNZe__RpbtbrbdoQ&s',
     features: ['Multiple Nets', 'Bowling Machine', 'Pro Coaching'],
     accent: '#ff6b00',
   },
 ];
 
 export default function GroundsSection() {
-  const whatsappLink = `https://wa.me/91${mobilenumber}?text=Hi%20Turf & Treat!%20I'd%20like%20to%20book%20a%20slot.`;
+  const whatsappLink = `https://playo.co/booking?venueId=45e17fe8-429a-410a-9a58-43bdf0623ccf`;
 
   return (
     <section id="grounds" className="py-24 px-4 bg-[#0f0f0f] relative">

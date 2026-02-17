@@ -19,7 +19,7 @@ const navLinks = [
 export default function Layout({ children }) {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const whatsappLink = `https://wa.me/91${mobilenumber}?text=Hi%20Turf & Treat!%20I'd%20like%20to%20book%20a%20slot.`;
+  const whatsappLink = `https://playo.co/booking?venueId=45e17fe8-429a-410a-9a58-43bdf0623ccf`;
 
   useEffect(() => {
     const handleScroll = () => {

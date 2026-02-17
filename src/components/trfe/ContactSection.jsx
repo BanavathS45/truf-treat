@@ -5,7 +5,7 @@ import { Phone, MessageCircle, Instagram, Facebook } from 'lucide-react';
 import { mobilenumber } from '@/constant';
 
 export default function ContactSection() {
-  const whatsappLink = `https://wa.me/91${mobilenumber}?text=Hi%20Turf & Treat!%20I'd%20like%20to%20book%20a%20slot.`;
+  const whatsappLink = `https://playo.co/booking?venueId=45e17fe8-429a-410a-9a58-43bdf0623ccf`;
 
   return (
     <section id="contact" className="py-24 px-4 bg-[#0a0a0a] relative overflow-hidden">
@@ -38,7 +38,7 @@ export default function ContactSection() {
 // @ts-ignore
               Button className="group px-10 py-7 text-lg font-bold bg-gradient-to-r from-[#00ff88] to-[#00d4ff] text-black hover:shadow-[0_0_50px_rgba(0,255,136,0.5)] transition-all duration-300 rounded-full">
                 <MessageCircle className="w-6 h-6 mr-2" />
-                WhatsApp Booking
+                Booking Now
               </Button>
             </a>
            <a href={`tel:+91${mobilenumber}`}>

@@ -6,7 +6,7 @@ const schedule = [
   { icon: Sun, period: 'Early Morning', time: '5:00 AM - 8:00 AM', desc: 'Fresh air workouts' },
   { icon: Clock, period: 'Morning', time: '8:00 AM - 12:00 PM', desc: 'Perfect for practice' },
   { icon: Sunset, period: 'Afternoon', time: '12:00 PM - 5:00 PM', desc: 'Beat the heat indoors' },
-  { icon: Moon, period: 'Evening & Night', time: '5:00 PM - 11:30 PM', desc: 'Under the lights' },
+  { icon: Moon, period: 'Evening & Night', time: '5:00 PM - 01:00 AM', desc: 'Under the lights' },
 ];
 
 export default function TimingsSection() {
@@ -29,7 +29,7 @@ export default function TimingsSection() {
           </h2>
           <div className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-[#00ff88]/10 border border-[#00ff88]/20">
             <Clock className="w-6 h-6 text-[#00ff88]" />
-            <span className="text-2xl font-bold text-[#00ff88]">5:00 AM — 11:30 PM</span>
+            <span className="text-2xl font-bold text-[#00ff88]">5:00 AM — 01:00 AM</span>
           </div>
         </motion.div>
 

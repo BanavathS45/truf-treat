@@ -11,7 +11,7 @@ export default function HeroSection() {
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Animated Background */}
       <div className="absolute inset-0 bg-[#0a0a0a]">
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=1920')] bg-cover bg-center opacity-20" />
+        <div className="absolute inset-0 bg-[url('/bg.png')] bg-cover bg-center opacity-20" />
         <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0a] via-transparent to-[#0a0a0a]" />
         
         {/* Animated Glow Effects */}
